@@ -19,9 +19,9 @@ COPY . .
 
 # 명령어 실행 (의존성 설치)
 RUN npm install
-RUN npm i axios
-# RUN npm install -g json-server@0.17.0
-RUN npm install vuex@next --save
+# RUN npm i axios
+# # RUN npm install -g json-server@0.17.0
+# RUN npm install vuex@next --save
 
 # 5173번 포트 노출
 EXPOSE 5173
@@ -31,4 +31,4 @@ RUN npm install --silent
 
 # npm start 스크립트 실행
 # CMD ["json-server", "--watch", "db.json"]
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "build"]
