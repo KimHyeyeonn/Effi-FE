@@ -23,9 +23,9 @@ RUN npm i axios
 # RUN npm install -g json-server@0.17.0
 RUN npm install vuex@next --save
 
-# 3000번 포트 노출
-# EXPOSE 5173
-EXPOSE 3000
+# 5173번 포트 노출
+EXPOSE 5173
+
 
 RUN npm install --silent
 
