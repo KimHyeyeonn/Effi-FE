@@ -24,7 +24,7 @@ RUN npm i axios
 RUN npm install vuex@next --save
 
 # 3000번 포트 노출
-EXPOSE 3000
+EXPOSE 5173
 
 # npm start 스크립트 실행
 # CMD ["json-server", "--watch", "db.json"]
