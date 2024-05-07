@@ -28,4 +28,4 @@ EXPOSE 8080
 
 # npm start 스크립트 실행
 # CMD ["json-server", "--watch", "db.json"]
-CMD ["npm", "run", "serve"]
+CMD ["npm", "run", "dev"]
