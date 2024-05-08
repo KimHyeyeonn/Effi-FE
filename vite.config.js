@@ -16,13 +16,13 @@ export default defineConfig({
   // build: {
   //   outDir: '../../Effi-FE/src/main/resources/static'
   // },
-  server: {
-    proxy: {
-      '/api': 'http://localhost:8080'
-    },
+  // server: {
+  //   proxy: {
+  //     '/api': 'http://localhost:8080'
+  //   },
     server: {
       host: true,
       port: 5173 // 사용하고자 하는 포트 번호로 변경
     }
   }
-})
+)
