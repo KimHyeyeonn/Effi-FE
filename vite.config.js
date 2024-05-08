@@ -13,9 +13,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  build: {
-    outDir: '../../1team-fin-backend/src/main/resources/static'
-  },
+  // build: {
+  //   outDir: '../../Effi-FE/src/main/resources/static'
+  // },
   server: {
     proxy: {
       '/api': 'http://localhost:8080'
